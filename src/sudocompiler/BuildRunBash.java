@@ -12,48 +12,30 @@ import java.io.IOException;
 
 /**
  *
- * @author nzoel
+ * @author nicholas
  */
-public class BuildRunBatch {
+class BuildRunBash {
     
     private File file;
     private BufferedWriter bw;
     
-    public BuildRunBatch (String fileName) throws IOException {
+    public BuildRunBash(String fileName) throws IOException{
         fileName = fileName.replace('\\', ' ');
         fileName = fileName.replace('/', ' ');
         fileName = fileName.replace('.', ' ');
         String[] tempa = fileName.split(" ");
         String temp = "";
         int index = 0;
-        while(index < tempa.length - 2) {
+        while (index < tempa.length - 2) {
             temp += tempa[index] + "\\";
             index++;
         }
-        file = new File(temp + "Run.bat");
+        file = new File(temp + "Run.sh");
         file.createNewFile();
         bw = new BufferedWriter(new FileWriter(file));
-        bw.write("@echo off" + "\n");
         bw.write("java " + tempa[tempa.length - 2] + "\n");
-        bw.write("@echo Finished!" + "\n");
-        bw.write("pause");
+        bw.write("echo Finished!" + "\n");
         bw.close();
-    }
-    
-    private static void print(Object obj) {
-        System.out.print(obj);
-    }
-    
-    private static void println(Object obj) {
-        System.out.println(obj);
-    }
-    
-    private static void println() {
-        System.out.println();
-    }
-    
-    private static void printf(String s, Object ... args) {
-        System.out.printf(s,args);
     }
     
 }

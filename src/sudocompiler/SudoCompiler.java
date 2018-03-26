@@ -24,6 +24,7 @@ public class SudoCompiler {
             converter.buildFile();
             converter.convertFile();
             BuildRunBatch brb = new BuildRunBatch(args[0]);
+            BuildRunBash br = new BuildRunBash(args[0]);
         } else
             printlnErr("There was no file to be compiled.");
             System.exit(0);
