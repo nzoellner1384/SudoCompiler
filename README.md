@@ -35,7 +35,7 @@ func get() : var {
 
 ###Variables
 
-Variables start with either the keyword ```var``` or ```let``` (for constants).
+Variables start with either the keyword ```var``` or ```let``` (for constants)(Use able variable types: string, char, int, boolean).
 
 ```
 var x;
