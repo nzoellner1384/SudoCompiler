@@ -44,8 +44,9 @@ func get() : var {
 Variables start with either the keyword ```var``` or ```let``` (for constants)(Use able variable types: string, char, int, boolean).
 
 ```
-var x;
-let y = 5;
+var varx;
+let VAR_Y = 5;
+var z = VAR_Y + varx;
 ```
 
 ### Conditionals
