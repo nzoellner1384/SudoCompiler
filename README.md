@@ -12,7 +12,13 @@ The N Language was a language that I tried to design that took inspiration from 
 ---
 ###Functions
 
-A function in the N language uses the key word of ```func``` followed by the name of the function and parameters.
+A function in the N language uses the key word of ```func``` followed by the name of the function and parameters. All N files must have a main function
+
+```
+func main() {
+    // Some Code
+}
+```
 
 ```
 func funcName() {
