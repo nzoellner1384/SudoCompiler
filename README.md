@@ -1,4 +1,4 @@
-# Sudo Compiler For N (Ugly Mess) ps. Only works with the print statements and main function right now. Must use Compile.bat with jar file in cmd to use. ```Compile.bat %filename%.n```
+# Sudo Compiler For N (Ugly Mess) ps. Only works with the print statements and main function right now. Must use Compile.bat in cmd, with the jar file in the same folder, to use. ```Compile.bat %filename%.n```
 
 <br />
 
