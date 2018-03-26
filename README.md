@@ -1,4 +1,4 @@
-# Sudo Compiler For N (Ugly Mess)
+# Sudo Compiler For N (Ugly Mess) ps. only works with the print statements and main function right now. must use Compile.bat in cmd to use ```Compile.bat %filename%.n```
 
 <br />
 
