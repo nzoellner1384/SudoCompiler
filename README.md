@@ -33,9 +33,21 @@ func setVar(x) {
 A function that has a return:
 
 ```
-func get() : var {
+func get() : int {
     // Some Code
     return x
+}
+func get() : char {
+	// Some Code
+	return x
+}
+func get() : string {
+	// Some Code
+	return x
+}
+func get() : boolean {
+	// Some Code
+	return x
 }
 ```
 
@@ -44,8 +56,9 @@ func get() : var {
 Variables start with either the keyword ```var``` or ```let``` (for constants)(Use able variable types: string, char, int, boolean).
 
 ```
-var varx;
-let VAR_Y = 5;
+var x;
+let y = 5;
+x = 3;
 var z = VAR_Y + varx;
 ```
 
