@@ -59,7 +59,7 @@ Variables start with either the keyword ```var``` or ```let``` (for constants)(U
 var x;
 let y = 5;
 x = 3;
-var z = VAR_Y + varx;
+var z = y + x;
 ```
 
 ### Conditionals
