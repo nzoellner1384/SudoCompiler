@@ -1,0 +1,2 @@
+java test
+echo Finished!

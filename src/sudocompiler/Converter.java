@@ -10,7 +10,6 @@ import java.util.TreeMap;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Map.Entry;
 
 /**
@@ -53,9 +52,18 @@ public class Converter {
     }
     public void convertFile() throws IOException{
         for (int i = 0; i < endFile.size() - 1; i++) {
-            if (endFile.get(i).contains("func main")) {
+            if (endFile.get(i).contains("func")) {
                 if (endFile.get(i).contains("main")) {
                     endFile.replace(i, "\tpublic static void main(String[] args) {");
+                } else {
+                    String[] line = endFile.get(i).split("\\s+");
+                    String funcName = line[2];
+                    if (!funcName.contains("()")) {
+                        funcName += "()";
+                        endFile.replace(i, String.format("\tpublic static void %s {", funcName));
+                    } else {
+                        endFile.replace(i, String.format("\tpublic static void %s {", funcName));
+                    }
                 }
             }
             if (endFile.get(i).contains("println")) {

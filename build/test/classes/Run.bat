@@ -1,4 +1,4 @@
 @echo off
-java t
+java test
 @echo Finished!
 pause
