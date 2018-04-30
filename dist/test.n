@@ -1,7 +1,0 @@
-func main() {
-	test();
-}
-
-func test() {
-	println("Hello World!");
-}
