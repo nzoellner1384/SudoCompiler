@@ -35,19 +35,19 @@ A function that has a return:
 ```
 func get() : int {
     // Some Code
-    return x
+    return x;
 }
 func get() : char {
 	// Some Code
-	return x
+	return x;
 }
 func get() : string {
 	// Some Code
-	return x
+	return x;
 }
 func get() : boolean {
 	// Some Code
-	return x
+	return x;
 }
 ```
 
