@@ -56,8 +56,8 @@ public class Converter {
                 if (endFile.get(i).contains("main")) {
                     endFile.replace(i, "\tpublic static void main(String[] args) {");
                 } else {
-                    String[] line = endFile.get(i).split("\\s+");
-                    String funcName = line[2];
+                    String[] line = endFile.get(i).trim().split("\\s+");
+                    String funcName = line[1];
                     if (!funcName.contains("()")) {
                         funcName += "()";
                         endFile.replace(i, String.format("\tpublic static void %s {", funcName));
