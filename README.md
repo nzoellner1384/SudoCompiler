@@ -95,6 +95,7 @@ The for each loop:
 ```cs
 foreach c in s {
     // Some Code
+    var
 }
 ```
 
