@@ -38,16 +38,16 @@ func get() : int {
     return x;
 }
 func get() : char {
-	// Some Code
-	return x;
+    // Some Code
+    return x;
 }
 func get() : string {
-	// Some Code
-	return x;
+    // Some Code
+    return x;
 }
 func get() : boolean {
-	// Some Code
-	return x;
+    // Some Code
+    return x;
 }
 ```
 
@@ -92,7 +92,7 @@ for i 0 to 10 {
 
 The for each loop:
 
-```visualbasic
+```swift
 foreach c in s {
     // Some Code
 }
