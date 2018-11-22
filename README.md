@@ -84,7 +84,7 @@ while true {
 
 The for loop:
 
-```basic
+```pascal
 for i 0 to 10 {
     // Some Code
 }
