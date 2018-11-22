@@ -14,7 +14,7 @@ The N Language was a language that I tried to design that took inspiration from 
 
 A function in the N language uses the key word of ```func``` followed by the name of the function and parameters. All N files must have a main function
 
-```
+```swift
 func main() {
     // Some Code
 }
