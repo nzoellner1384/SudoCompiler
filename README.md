@@ -92,7 +92,7 @@ for i 0 to 10 {
 
 The for each loop:
 
-```vb
+```c
 foreach c in s {
     // Some Code
 }
