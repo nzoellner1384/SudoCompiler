@@ -20,7 +20,7 @@ func main() {
 }
 ```
 
-```
+```swift
 func funcName() {
     // Some Code
 }
@@ -32,7 +32,7 @@ func setVar(x) {
 
 A function that has a return:
 
-```
+```swift
 func get() : int {
     // Some Code
     return x;
@@ -55,7 +55,7 @@ func get() : boolean {
 
 Variables start with either the keyword ```var``` or ```let``` (for constants)(Use able variable types: string, char, int, boolean).
 
-```
+```swift
 var x;
 let y = 5;
 x = 3;
@@ -66,7 +66,7 @@ var z = y + x;
 
 The if statement:
 
-```
+```swift
 if true {
     // Some Code
 }
@@ -76,7 +76,7 @@ if true {
 
 The while loop:
 
-```
+```swift
 while true {
     // Some Code
 }
@@ -84,7 +84,7 @@ while true {
 
 The for loop:
 
-```
+```swift
 for i 0 to 10 {
     // Some Code
 }
@@ -92,7 +92,7 @@ for i 0 to 10 {
 
 The for each loop:
 
-```
+```visualbasic
 foreach c in s {
     // Some Code
 }
@@ -102,7 +102,7 @@ foreach c in s {
 
 To print output into the console, there are three methods that can be used:
 
-```
+```swift
 print(var);
 println();
 println(var);
