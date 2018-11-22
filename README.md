@@ -92,10 +92,9 @@ for i 0 to 10 {
 
 The for each loop:
 
-```python
+```java
 foreach c in s {
     // Some Code
-    var
 }
 ```
 
